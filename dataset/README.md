@@ -2,8 +2,7 @@
 
 ## Base de datos
 
-
-Elementos empleados
+### Hardware empleado
 
 |Descripción|Referencia|
 |----|----|
@@ -113,46 +112,11 @@ Movimientos 3
 
 
 
+### Enlaces a la loca
 
-https://oa.upm.es/72198/4/TFG_NOEMI_AMOROS_SPOONER.pdf
-
-Mano: The subject is asked to repeat what is shown on the screen with the right hand.
-
-
-
-
-
-Data stored for each subject:
-* One XML file with clinical and experimental information
-* Unprocessed data (sEMG, Cyberglove, Inclinometer, Movie)
-* One preview picture for each exercise
-* One picture of the arm without the acquisition setup
-* One picture of the arm with the acquisition setup on
-
-
-
-
-Comparación:
 * https://repositorio.ul.pt/bitstream/10451/30535/1/ulfc120811_tm_Alexandre_Calado.pdf
 * https://oa.upm.es/72198/4/TFG_NOEMI_AMOROS_SPOONER.pdf
 * https://www.hevs.ch/media/document/0/2012.05.21_ninapro_en.pdf?107d541d8bbbe739caeec09168c22859
-  
-
-### Sensores
-
-
-
-En total 
-
-| **Resolución de Señales**      | Los datos de EMG son señales continuas con valores de amplitud en microvoltios    |
-| **Formato de Datos**           | Los datos de cada registro se guardan en series temporales (CSV o formato MATLAB)  |
-| **Tamaño del Registro**        | Aproximadamente 500 muestras por canal para cada registro de 5 segundos           |
-| **Sincronización**             | Las señales EMG y de acelerometría están sincronizadas en tiempo                   |
-
-
-
-
-Cosas que se han hecho:
 * https://github.com/parasgulati8/NinaPro-Helper-Library
 * https://github.com/cnzero/NinaproCNN/tree/master
 * https://github.com/Lif3line/nina_helper_package_mk2
