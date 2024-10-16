@@ -78,22 +78,40 @@ data, and the stimulus data (timestamp + the sensor values).
 these private details are explicitly excluded from publication
 and analysis.
 
+* Sobre los registros: 
 
-|Ejercicio|Movimientos|
-|----|----|
-|1|12|
-|2|17|
-|3|23|
+En la pagina https://ninapro.hevs.ch/instructions/DB1.html se enceuentran cad uno de los registros por usuario en un archivo comprimido de la forma **`Sx.zip`** (Donde **`x`** es el numero del usuario). 
+
+Dentro de cada directorio comprimido hay tres archivos de la forma **`Sx_Ay_Ez.mat`** donde:
+* **`x`**: Numero del sujeto.
+* **`y`**: Adquisición (`A1`: Primera adquisición).
+* **`z`**: Numero del ejercicio: 1, 2 o 3.
+  * 27 sujetos (S1-S27)
+  * 3 ejercicios por sujeto (E1-E3)
+  * Formato de archivos: .mat y .zip
+ 
+
+|Ejercicio|Movimientos|Descripción|
+|----|----|----|
+|1|12|Individuales de dedos|
+|2|17|Agarres y posturas de mano|
+|3|23|Gestos funcionales|
+
+
+Movimientos 1
+
+![mov1](movimientos1.png)
+
+Movimientos 2
+
+![mov2](movimientos2.png)
+
+Movimientos 3
+
+![mov3](movimientos3.png)
 
 
 
-27 sujetos (S1-S27)
-3 ejercicios por sujeto (E1-E3)
-Formato de archivos: .mat y .zip
-
-* sEMG Electrodes: 10 double-differential Otto Bock 13E200
-* Data Glove 22 sensors Cyberglove II (Cyberglove Systems)
-* Inclinometer: Kübler 8.IS40.2341
 
 
 https://oa.upm.es/72198/4/TFG_NOEMI_AMOROS_SPOONER.pdf
@@ -117,7 +135,9 @@ Data stored for each subject:
 Comparación:
 * https://repositorio.ul.pt/bitstream/10451/30535/1/ulfc120811_tm_Alexandre_Calado.pdf
 * https://oa.upm.es/72198/4/TFG_NOEMI_AMOROS_SPOONER.pdf
-* 
+* https://www.hevs.ch/media/document/0/2012.05.21_ninapro_en.pdf?107d541d8bbbe739caeec09168c22859
+  
+
 ### Sensores
 
 
