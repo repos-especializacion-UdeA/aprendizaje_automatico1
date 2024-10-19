@@ -110,6 +110,20 @@ Movimientos 3
 ![mov3](movimientos3.png)
 
 
+* The subject sits comfortably on an adjustable chair, in front of a table with a large screen.  
+* The subjects are presented with short movies appearing on the screen and are asked to simply replicate the movements depicted in the movies as accurately as possible.
+* Each subject:
+  *  "training phase" to get familiar with the procedure, during which each movement of the first three classes and three movements of the fourth class are repeated three times (no data are recorded). 
+  *  After the training phase, a sequential series of ten repetitions of each class of movements is presented to the subject while data are recorded. 
+  *  Each movie lasts five seconds and three seconds
+of rest are allowed in-between movements. The four movement classes are functionally grouped into three "exercises" (the second and third classes are grouped into the second exercise).
+
+Notice that the sequences are intentionally not randomized in order to induce repetitive, almost unconscious movements. The three exercises are completed in 16, 23, and 31 minutes. In order to avoid muscle fatigue and its influence on the sEMG signal, 5 minutes of rest are allowed between the training sequence and the first exercise and between each exercise and the following one. In total, the experiment lasts about 100 minutes.
+
+Las señales de los ejercicios se ven asi mas o menos:
+
+![señales](ejercicios.png)
+
 En **Effect of Analysis Window and Feature Selection on Classification of Hand Movements Using EMG Signal** [[link]](https://web.lums.edu.pk/~imdad/pdfs/papers/20_08_effect_of_analysis_window.pdf) donde la siguiente figura muestra un diagrama:
 
 ![sistema](sistema.png)
