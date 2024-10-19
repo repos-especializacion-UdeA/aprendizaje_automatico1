@@ -110,7 +110,11 @@ Movimientos 3
 ![mov3](movimientos3.png)
 
 
+En **Effect of Analysis Window and Feature Selection on Classification of Hand Movements Using EMG Signal** [[link]](https://web.lums.edu.pk/~imdad/pdfs/papers/20_08_effect_of_analysis_window.pdf) donde la siguiente figura muestra un diagrama:
 
+![sistema](sistema.png)
+
+**Para ver luego**: Open Database for Accurate Upper-Limb Intent Detection Using Electromyography and Reliable Extreme Learning Machines [[link]](https://pdfs.semanticscholar.org/0cb0/b903a98b04f6afef9d4304a913fcbe049086.pdf)
 
 ### Enlaces a la loca
 

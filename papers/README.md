@@ -68,8 +68,22 @@ The data analysis procedure can be summarized:
        *  Filtering: Hampel filter at 50 Hz.
        *  Synchronization: all the modalities were up-sampled at the sampling frequency of the fastest device (2 kHz) using linear-interpolation.
     3. Extracting a set of signal features using a moving window technique. 
-       *   
-    5. The signal features were used as input data to compute the hand movement taxonomies.
+       *  Signal feature extraction was performed applying the method described by Englehart:
+          *  Each movement repetition was windowed using a 200 ms window, with 100 ms of overlap
+          *  In order to make the taxonomy robust to differences between features.
+             *  Five time domain signal features:
+                *  Root Mean Square (RMS)
+                *  Mean Absolute Value (MAV)
+                *  Integrated Absolute Value (IAV)
+                *  Time Domain Statistics (TD) [44] and 
+                *  Waveform Length (WL) [43, 47–52]. 
+              * The Time Domain Statistics (TD): 
+                *  Mean Absolute Value (MAV)
+                *  Mean Absolute Value Slope (MAVS)
+                *  Zero Crossings (ZC)
+                *  Slope Sign Changes (SSC)
+                *  Waveform Length (WL)
+    4. The signal features were used as input data to compute the hand movement taxonomies.
   * CyberGlove data: window based time series analysis and in particular from the literature in EMG data analysis.
   
 * creation of the hierarchical trees
